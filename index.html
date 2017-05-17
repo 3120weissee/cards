@@ -3,10 +3,25 @@
 	<head>
 		<title>Cards</title>
 		<link rel="stylesheet" type="text/css" href="./style/card.css">
-		<script type="text/javascript" src='http://code.jquery.com/jquery-1.10.2.min.js'></script>
+		<script type="text/javascript" src='http://code.jquery.com/jquery-1.10.2.js'></script>
 		<script src="./scripts/card.js"></script>
+		<script src="./scripts/deck.js"></script>
+		<script src="./scripts/display.js"></script>
 	</head>
 	<body>
-
+		<div id="wrapper">
+			<div id="dealer" class="hand">
+				<div class="card"></div>
+				<div class="card"></div>
+			</div>
+			<div id="player" class="hand">
+				<div class="card"></div>
+				<div class="card"></div>
+			</div>
+			<div id="controls">
+				<button name="deal" id="deal">
+				<button name="hit" id="hit">
+			</div>
+		</div>
 	</body>
 </html>
